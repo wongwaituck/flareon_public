@@ -1,6 +1,6 @@
 # Challenge 2
 
-In this challenge, we are given a web page. Inspecting `home.html`, we find nothing interesting. However, we run a simple strings on `img/flare-on.png` and we find the following suspicious php code (formatted for sanity)
+In this challenge, we are given a web page. Inspecting `home.html`, we find nothing interesting. However, we run a simple strings on `img/flare-on.png` and we find the following suspicious php code (formatted for sanity).
 
 ```
 <?php 
@@ -13,7 +13,7 @@ for ($i = 0; $i < count($order); $i++) {
 eval($do_me); ?>
 ```
 
-We run this with a PHP interpreter (I used [http://sandbox.onlinephpfunctions.com/]()) and we get the following error:
+This seems like a simple codebook (unlike what the terms suggest, the MZ is a troll). Since I am lazy, we run this with a PHP interpreter (I used [http://sandbox.onlinephpfunctions.com/](http://sandbox.onlinephpfunctions.com/)) and we get the following error:
 
 ```
 <br />
