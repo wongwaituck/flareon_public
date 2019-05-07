@@ -38,7 +38,7 @@ $code = base64_decode($_);
 eval($code); ?>
 ```
 
-The ` \97\49\49\68\x4F\84\116\x68\97\x74\x44\x4F\x54\x6A\97\x76\x61\x35\x63\x72\97\x70\x41\84\x66\x6C\97\x72\x65\x44\65\x53\72\111\110\68\79\84\99\x6F\x6D` is obviously an ASCII string. Doing some simple string tricks in Notepad++ (replacing all '\' with ',', then replacing 'x' with '0x') we get a string that can be copied into Python:
+The ` \97\49\49\68\x4F\84\116\x68\97\x74\x44\x4F\x54\x6A\97\x76\x61\x35\x63\x72\97\x70\x41\84\x66\x6C\97\x72\x65\x44\65\x53\72\111\110\68\79\84\99\x6F\x6D` is obviously an ASCII string. Doing some simple string tricks in Notepad++ (replacing all `'\\'` with `','`, then replacing `'x'` with `'0x'`) we get a string that can be copied into Python:
 
 ```
 97,49,49,68,0x4F,84,116,0x68,97,0x74,0x44,0x4F,0x54,0x6A,97,0x76,0x61,0x35,0x63,0x72,97,0x70,0x41,84,0x66,0x6C,97,0x72,0x65,0x44,65,0x53,72,111,110,68,79,84,99,0x6F,0x6D
